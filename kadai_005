@@ -1,0 +1,10 @@
+#上辺：10cm
+up_side = 10
+#下辺：20cm
+down_side =20
+#高さ：5cm
+height = 5
+#公式：台形の面積 =（上辺＋下辺）× 高さ ÷ 2
+s = (up_side + down_side) * height / 2
+
+print(str(s) + "cm²")
