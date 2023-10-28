@@ -1,0 +1,19 @@
+#ランダムな正の整数を利用するために、randomモジュールをインポート
+import random
+
+# 変数varに1～100までのランダムな整数を代入する
+var = random.randint(1, 100)
+
+print("ランダムで選ばれた正の整数を表示")
+print(var)
+
+print("変数varの値が3の倍数なら「Fizz」、5の倍数なら「Buzz」、5と3の倍数なら「FizzBuzz」それ以外なら変数varの値を出力")
+
+if var % 3 == 0: 
+    print("Fizz")
+elif var % 5 == 0:
+    print("Buzz")
+elif var % 15 == 0:
+    print("FizzBuzz")
+else:
+    print(var) 
