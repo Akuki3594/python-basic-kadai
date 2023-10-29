@@ -1,10 +1,15 @@
-def add_two_arguments(price, tax):
-    # 与えられた引数priceと引数taxを加算し、変数totalに代入する
-    total = price + (price * tax)/100
+def total_price(price, tax_rate):
+    # 消費税を考慮して合計金額を計算
+    total = price + (price * tax_rate) / 100
+    return total
 
-    # 変数$totalの値を出力する
-    print(f"{total}円")
+# 商品の金額が1200円で、消費税率が10%の場合の計算例
+product_price = 1200
+tax_rate = 10
 
-#第1引数に商品の金額、第2引数に消費税（10%）を設定する。
-add_two_arguments(1200, 10)
+total_price = total_price(product_price, tax_rate)
 
+# 計算結果を表示
+print(f"商品の金額: {product_price}円")
+print(f"消費税率: {tax_rate}%")
+print(f"合計金額: {total_price}円")
