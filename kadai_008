@@ -7,7 +7,7 @@ var = random.randint(1, 100)
 print("ランダムで選ばれた正の整数を表示")
 print(var)
 
-print(5と3の倍数なら「FizzBuzz」なら「Fizz」、5の倍数なら「Buzz」、"変数varの値が3の倍数なら「Fizz」それ以外なら変数varの値を出力")
+print("5と3の倍数なら「FizzBuzz」なら「Fizz」、5の倍数なら「Buzz」、変数varの値が3の倍数なら「Fizz」それ以外なら変数varの値を出力")
 
 if var % 15 == 0:
     print("FizzBuzz")
