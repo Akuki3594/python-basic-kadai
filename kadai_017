@@ -7,7 +7,7 @@ class Human:
    def set_age(self,name):
         self.age = age
 
-   def show_age(self):
+   def check_adult(self):
         if 20 < self.age:
           print("大人")
         else :
@@ -16,8 +16,8 @@ class Human:
 
 
 #インスタンス化する
-kuki = Human("yabu", 27)
+kuki = Human("kuki", 27)
 
 
 #メソッドにアクセスして実行する
-kuki.show_age()
+kuki.check_adult()
