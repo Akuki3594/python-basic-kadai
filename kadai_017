@@ -1,0 +1,23 @@
+class Human:
+   def __init__(self,name,age):
+       self.name = name#属性,""は空の文字列
+       self.age  = age
+
+    #メゾッドを定義する
+   def set_age(self,name):
+        self.age = age
+
+   def show_age(self):
+        if 20 < self.age:
+          print("大人")
+        else :
+          print("子供")
+        
+
+
+#インスタンス化する
+kuki = Human("yabu", 27)
+
+
+#メソッドにアクセスして実行する
+kuki.show_age()
